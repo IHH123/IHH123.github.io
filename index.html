@@ -11,7 +11,7 @@
     <script async src="js/BigData.js"></script>
     <title>Hello, world!</title>
   </head>
-  <body class="bg-dark">
+  <body class="bg-dark" data-spy="scroll" data-target="#list-scroll" data-offset="50">
 <!--         <div class="col-5">
           <div class="tab-content">
             <div class="tab-pane fade show-active" id="facebook">
@@ -29,8 +29,8 @@
                 </div>
           </div>
         </div> -->
-
-        <nav class="navbar navbar-expand-md navbar-dark bg-secondary rounded">
+        <div id="SejarahGoogle"></div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-secondary rounded fixed-top">
           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menu">
             <div class="navbar-toggler-icon"></div>
           </button>
@@ -43,25 +43,24 @@
                 <a href="#" class="nav-item nav-link nav">
                   <div class="h6" style="display: inline; position: relative; top: 3px;">Home</div>
                 </a>
-                <li class="dropdown">
+                <li class="dropdown mt-2 mt-md-0">
                   <a href="#" class="h6 nav-item nav-link dropdown-toggle" data-toggle="dropdown" style="display: inline; position: relative; top: 11px;">
-                      Layanan 
+                      Service 
                   </a>
                     <br>
                       <br>
-                      <div class="dropdown-menu w-25">
-                        <a href="http://www.google.com" class="dropdown-item" target="_blank">Layanan Google</a>
-                        <a href="http://www.gmail.com" class="dropdown-item" target="_blank">Layanan Gmail</a>
+                      <div class="dropdown-menu w-50" id="list-scroll">
+                        <a href="#SejarahGoogle" class="dropdown-item">Google History</a>
+                        <a href="#SejarahFacebook" class="dropdown-item">Facebook History</a>
                       </div>
                 </li>
                 <a href="#" class="nav-item nav-link">
                   <div class="h6" style="display: inline; position: relative; top: 3px;">Contact</div>
                 </a>
             </ul>
-              <br>
-                <form name="PencarianSearch" class="form-inline d-md-none ml-0" style="position: relative; top: 3px;">
+                <form name="PencarianSearch" class="form-inline d-md-none ml-0 mt-4" style="position: relative; top: 3px;">
                   <input type="search" name="PencarianKata" class="form-control mr-sm-3" size="30" placeholder="search">
-                  <input type="submit" name="SubmitPencarian" class="btn btn-outline-primary mt-3 mt-sm-0">
+                  <input type="submit" name="SubmitPencarian" class="btn btn-outline-primary mt-4 mt-sm-0">
                 </form>
               <br>
           </div>
@@ -70,7 +69,94 @@
             <input type="submit" name="SubmitPencarian" class="btn btn-outline-primary mr-2">
           </form>
         </nav>
+          <div class="position-relative" style="top: 120px">
+            <div class="text-light container-fluid">
+              <div class="row">
+                <div class="col-3">
+                  <br>
+                  <ul class="list-group h6">
+                    <a class="list-group-item list-group-item-dark list-group-item-action" href="http://www.google.com" target="_blank">Layanan Google</a>
+                    <a class="list-group-item list-group-item-dark list-group-item-action" href="http://www.facebook.com" target="_blank">Layanan Facebook</a>
+                  </ul>
+                </div>
+                <div class="col-9">
+                  <div class="h1">Sejarah Google</div>
+                    <br>
+                      Google adalah sebuah perusahaan raksasa yang bergerak di bidang jasa dan produk internet. Berbasis di Amerika Serikat, Google memiliki cabang-cabang 
+                      hampir di semua negara di dunia. Produk yang ditawarkan Google antara lain teknologi pencarian atau biasa kita kenal dengan Google Search, komputasi 
+                      web, perangkat lunak, perangkat keras dan jasa periklanan online. Sebagian besar laba yang didapatkan Google berasal dari jasa periklanannya, 
+                      AdWords. Larry Page dan Sergey Brin adalah pendiri Google. Mereka mendirikan perusahaan ini saat masih duduk di bangku kuliah di Universitas 
+                      Stanford, California. Kedua pemuda ini memiliki mimpi besar, yakni mengumpulkan berbagai informasi yang ada di dunia, membuatnya dapat diakses dan 
+                      bermanfaat bagi semua manusia. Di tanggal 4 September 1998, Larry dan Sergey menjadikan Google sebagai perusahaan swasta dan memindahkan kantor pusat 
+                      Google ke Mountain View, California pada tahun 2006. Kantor pusat Google mendapat julukan Googleplex dari para staffnya dan masyarakat yang tinggal 
+                      di sekitarnya. Pertumbuhan Google yang demikian pesat membuat mereka menghasilkan berbagai produk, melakukan akuisisi perusahaan lain serta 
+                      mengadakan kerjasama dengan sejumlah pihak di bidang mesin pencari. Beberapa produk Google antara lain adalah :
+                        <br>
+                          <br>
+                      <ul>
+                        <li>Perangkat lunak (Google Docs, Google Sheets dan Google Slides)</li>
+                        <li>Email (Gmail)</li>
+                        <li>Layanan manajemen waktu (Google Calendar)</li>
+                        <li>Cloud storage</li>
+                        <li>Media social (Google+)</li>
+                        <li>Pemetaan (Google Maps)</li>
+                        <li>Pengedit foto (Google Photos)</li>
+                      </ul>
+                        <br>
+                      Google juga menjadi perusahaan yang mengembangkan sistem operasi Android yang digunakan oleh hampir semua ponsel pintar yang beredar di dunia saat 
+                      ini. Di jenjang tahun 2010 sampai 2015, Google mulai banyak mengembangkan sejumlah hardware. Mereka bekerjasama dengan sejumlah produsen elektronik 
+                      raksasa untuk mengembangkan perangkat Google Nexus. Di bulan Oktober 2016 kemarin Google meluncurkan sejumlah produk seperti Google Pixel, Home, Wifi 
+                      dan Daydream View. Di tahun 2012, Google memasang infrastruktur fiber optik di Kansas City untuk memfasilitasi layanan internet jaringan lebar 
+                  <div id="SejarahFacebook">
+                      mereka, Google Fiber. Di tahun 2016, mereka meluncurkan Google Station, layanan wi-fi dengan kualitas terbaik, aman dan mudah untuk diakses di 
+                      seluruh dunia. Google Station sukses di pasar India.                        
+                       <br>
+                         <br>
+                       <br>
+                  <div class="h1">Sejarah Facebook</div>
+                    <br>
+                      Facebook, Inc adalah sosial media online asal Amerika dan juga perusahaan jejaring sosial berbasis di Menlo, California, AS. Facebook adalah suatu 
+                      layanan jejaring sosial yang awalnya diluncurkan sebagai Face Mash pada bulan Juli tahun 2003, dan kemudian diganti nama menjadi Facebook pada 4 
+                      Februari 2004. Sejarah Berdirinya Facebook didirikan oleh Mark Zuckerberg dan teman – teman di asrama kuliahnya Universitas Harvard yaitu Eduardo 
+                      Saverin, Andrew Mc Collum, Dustin Moskowitz dan Chris Hughes. Saat ini Facebook dianggap sebagai salah satu dari Empat Besar perusahaan teknologi 
+                      selain Amazon, Apple dan Google. Keanggotaan dalam website tersebut awalnya dibatasi hanya untuk para mahasiswa Harvard, tetapi kemudian meluas ke 
+                      kampus yang termasuk kedalam Ivy League di Boston, dan lama kelamaan berkembang kepada kebanyakan universitas di Amerika Serikat dan Kanada, 
+                      perusahaan, dan pada September 2006 mencakup semua orang yang memiliki alamat email sah dengan persyaratan usia minimum 13 tahun keatas. Sejarah 
+                      Berdirinya Facebook tidak dapat dilepaskan dari masa kecil pendirinya yaitu Mark Zuckeberg yang telah menunjukkan bakat programming komputer sejak 
+                      kecil. Ayahnya yang memahami pentingnya coding, telah mengajarkan Zuckerberg program dasar programmer komputer ATARI. Ketika usia 11 tahun orang 
+                      tuanya menyewa pengembang software bernama David Newman untuk mengajarinya. Dalam beberapa tahun, ia dapat menciptakan program praktis bernama 
+                      ZuckNet yang bekerja seperti pesan singkat internal. 
+                        <br>
+                          <br>
+                            <br>
+                            <div class="card text-center text-dark">
+                              <div class="card-header h4">Quote of the day</div>
+                                <blockquote class="blockquote">
+                                  Kurang cerdas dapat diperbaiki dengan belajar, kurang cakap dapat dihilangkan <br>dengan pengalaman. Namun tidak jujur 
+                                  itu akan sulit diperbaiki
+                                    <br>
+                                      <br>
+                                  <footer class="blockquote-footer">
+                                    <cite>Mohammad Hatta</cite>
+                                  </footer>
+                                </blockquote>
+                              <div class="card-footer">Wakil Presiden RI ke-1</div>
+                            </div>
+                        <br>
+                          <br>
+                      Ketika sedang belajar di Phillips Exeter Academy ia menciptakan Synapse, bagian dari software 
+                      yang mempelajari selera musik penggunanya melalui kecerdasan buatan dan kebiasaan mendengar musik sehingga membuat AOL dan Microsoft menawarinya 
+                      posisi di perusahaan mereka. Tetapi Zuckerberg menolaknya dan memilih meneruskan sekolah di Harvard. Ketahui juga mengenai sejarah berdirinya aqua, 
+                      sejarah google, dan sejarah berdirinya apple. Sejarah facebook berawal dari sejarah Face Mash sebagai pendahulunya yang dibuka pada tahun 2003. 
+                      Dikembangkan oleh Mark Zuckerberg yang merancang software untuk website Facemash ketika berada di tahun kedua universitas. Website tersebut dirancang 
+                      sebagai tipe game untuk para mahasiswa Harvard yang memungkinkan para pengunjung membandingkan dua mahasiswa wanita dengan gambar bersisian dan 
+                      pengunjung akan memutuskan siapa diantara mereka yang lebih ‘hot’ atau menarik. Face Mash menggunakan foto yang dikompilasi dari ‘face book’ sembilan 
+                      asrama di Harvard, menempatkannya bersisian dalam satu waktu dan meminta pengguna untuk memilih siapa yang lebih menarik. Metode itu dapat menarik 
+                      pengunjung sebanyak 450 orang dan 22.000 views pada foto yang dipajang dalam empat jam pertama online.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
   </body>
 </html>
-
-<!-- top: 63px; right: 295px; -->
