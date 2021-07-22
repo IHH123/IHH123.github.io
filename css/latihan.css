@@ -10,3 +10,22 @@
 		display: block;
 	}*/
 }
+
+.animasi:hover {
+
+	transition: all 1s ease-out 0s;
+	transform: scale(1.05,1.05);
+}
+
+@media only screen and (max-width: 576px) {
+
+	.percobaan1 {
+
+		width: 400px;
+	}
+
+/*	.percobaan1 {
+
+		display: block;
+	}*/
+}
