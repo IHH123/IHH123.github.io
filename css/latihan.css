@@ -1,14 +1,16 @@
+/*.jumbotron {
+
+	background-image: url('kapal_7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+
 @media only screen and (max-width: 891px) {
 
 	.percobaan2 {
 
 		display: none;
 	}
-
-/*	.percobaan1 {
-
-		display: block;
-	}*/
 }
 
 .animasi:hover {
@@ -24,8 +26,8 @@
 		width: 400px;
 	}
 
-/*	.percobaan1 {
+	.percobaan3 {
 
-		display: block;
-	}*/
+		left: 80px
+	}
 }
