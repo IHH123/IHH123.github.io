@@ -76,3 +76,5 @@ var Halaman=document.querySelector("li[aria-current='page'] a.page-link");
 var Content=document.querySelector("div.content");
 var GarisJudulAtas=document.querySelector("hr.over-line");
 var GarisJudulBawah=document.querySelector("hr.under-line");
+
+// $(function() {$('[data-toggle="popover"]').popover()});

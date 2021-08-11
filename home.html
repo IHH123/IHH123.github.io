@@ -13,7 +13,7 @@
   </head>
     <body class="bg-dark">
 
-        <nav class="navbar navbar-expand-md navbar-dark bg-secondary rounded-0 fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary rounded-0 fixed-top">
           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menu">
             <div class="navbar-toggler-icon"></div>
           </button>
@@ -41,13 +41,13 @@
                   <div class="h6" style="display: inline; position: relative; top: 3px;">Contact</div>
                 </a>
             </ul>
-                <form name="PencarianSearch" class="form-inline d-md-none ml-0 mt-4" style="position: relative; top: 3px;">
+                <form name="PencarianSearch" class="form-inline d-lg-none ml-0 mt-4" style="position: relative; top: 3px;">
                   <input type="search" name="PencarianKata" class="form-control mr-sm-3" size="30" placeholder="search">
                   <input type="submit" name="SubmitPencarian" class="btn btn-outline-primary mt-4 mt-sm-0">
                 </form>
               <br>
           </div>
-          <form name="PencarianSearch" class="form-inline percobaan2" style="position: relative; top: 3px;">
+          <form name="PencarianSearch" class="form-inline d-none d-lg-inline" style="position: relative; top: 3px;">
             <input type="search" name="PencarianKata" class="form-control mr-3" size="30" placeholder="search">
             <input type="submit" name="SubmitPencarian" class="btn btn-outline-primary mr-2">
           </form>
@@ -118,7 +118,7 @@
               <div class="col-12 mb-sm-5">
                 <div class="position-relative card-deck">
 
-                    <div class="card w-auto d-sm-inline-block animasi" style="cursor: pointer;">
+                    <div class="card w-auto d-sm-inline-block animasi" style="cursor: pointer;" data-toggle="modal" data-target="#ModalSatu">
                         <img src="kapal_1.jpg" class="card-img rounded" style="height: 238px">
                       <div class="card-body">
                         <hr width="100%" class="mt-4">
@@ -129,6 +129,16 @@
                             Rp. 200.500.000
                           </div>
                       </div>            
+                    </div>
+                    <div class="modal" id="ModalSatu" tabindex="-1">
+                      <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-body w-100">
+                              <button class="close" data-dismiss="modal">&times</button>
+                              Maaf, saat ini kapal tersebut masih belum tersedia. Silahkan kunjungi <div class="alert-link d-inline">www.google.com</div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
 
                       <div class="card w-auto d-sm-inline-block animasi" style="cursor: pointer;">
@@ -164,7 +174,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="position-relative card-deck">
-                  <div class="card w-auto d-sm-inline-block animasi" style="cursor: pointer;">
+                  <div class="card w-auto d-sm-inline-block animasi" data-toggle="modal" data-target="#ModalDua" style="cursor: pointer;">
                     <img src="kapal_4.jpg" class="card-img rounded" style="height: 238px;">
                       <div class="card-body">
                         <hr width="100%" class="mt-4">
@@ -175,6 +185,21 @@
                             Rp. 600.000.000
                           </div>
                       </div>            
+                  </div>
+                  <div class="modal fade" id="ModalDua" tabindex="-1">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <div class="h5">Info</div>
+                        <button type="button" data-dismiss="modal" class="close">
+                          <div>&times</div>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                          Maaf, saat ini kapal tersebut masih belum tersedia. Silahkan kunjungi<div class="alert-link">wwww.google.com</div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
 
                       <div class="card w-auto d-sm-inline-block animasi" style="cursor: pointer;">
@@ -195,10 +220,10 @@
                       <div class="card-body">
                         <hr width="100%" class="mt-4">
                           <div class="d-inline-block" style="font-style: italic;">
-                            Kapal Rotter PL-132CBR
+                            Kapal Vonska MN-132CBR
                             <br>
                               <br>
-                            Rp. 700.500.000
+                            Rp. 500.500.000
                           </div>
                       </div>            
                   </div>                                      
@@ -218,7 +243,7 @@
               <!-- <img src="css/line_wave.jpg" class="img-fluid mt-3 position-relative d-block percobaan3" style="width: 300px"> -->
             </div>
             <!-- left: 5px;  -->
-            <div class="col-5 mt-3 mt-lg-0 offset-1 text-center col-sm-4 offset-sm-0 col-lg-3 offset-lg-1 col-xl-2 offset-xl-1">
+            <div class="d-none d-sm-inline col-5 mt-3 mt-lg-0 offset-1 text-center col-sm-4 offset-sm-0 col-lg-3 offset-lg-1 col-xl-2 offset-xl-1">
               <ul class="list-unstyled">
                 <li>
                   <div class="h5 mb-3">Company</div>
@@ -230,7 +255,7 @@
                 <li class="mb-1">Contact</li>
               </ul>
             </div>
-            <div class="col-5 mt-3 mt-lg-0 text-center col-sm-4 col-lg-3 col-xl-2">
+            <div class="d-none d-sm-inline col-5 mt-3 mt-lg-0 text-center col-sm-4 col-lg-3 col-xl-2">
               <ul class="list-unstyled">
                 <li>
                   <div class="h5 mb-3">Help Center</div>
@@ -241,7 +266,7 @@
                 <li class="mb-1">Call Center</li>
               </ul>
             </div>
-            <div class="col-12 mt-3 mt-lg-0 text-center col-sm-4 d-lg-none d-xl-inline col-xl-2">
+            <div class="d-none d-sm-inline col-12 mt-3 mt-lg-0 text-center col-sm-4 d-lg-none d-xl-inline col-xl-2">
               <ul class="list-unstyled">
                 <li>
                   <div class="h5 mb-3">Explore</div>
@@ -254,6 +279,56 @@
               </ul>
             </div>
 
+          </div>
+
+            <br>
+          <div class="row d-sm-none">
+            <!-- <div class="accordion" id="sarah"> -->
+            <div class="col-3 h6 mb-2" data-target="#hanan" data-toggle="collapse" style="cursor: pointer;">
+              Company 
+            </div>
+            <div class="col-9 text-right mb-2" data-target="#hanan" data-toggle="collapse" style="cursor: pointer;">
+              <div class="h6">+</div>
+            </div>
+              <div class="col-12 mb-3 collapse" id="hanan">
+                <ul class="list-unstyled">
+                  <li class="mb-1">Home</li>
+                  <li class="mb-1">About</li>
+                  <li class="mb-1">Service</li>
+                  <li class="mb-1">Career</li>
+                  <li class="mb-1">Contact</li>
+                </ul>
+              </div>
+                  <div class="col-4 h6 mt-3 mb-2" data-target="#alisa" data-toggle="collapse" style="cursor: pointer;">
+                    Help Center
+                  </div>
+                  <div class="col-8 text-right mt-3 mb-2" data-target="#alisa" data-toggle="collapse" style="cursor: pointer;">
+                    <div class="h6">+</div>
+                  </div>
+                    <div class="col-12 mb-3 collapse" id="alisa">
+                      <ul class="list-unstyled">
+                        <li class="mb-1">Term Of Use</li>
+                        <li class="mb-1">Refunds</li>
+                        <li class="mb-1">Privacy Policy</li>
+                        <li class="mb-1">Call Center</li>
+                      </ul>
+                    </div>
+            <!-- </div> -->
+            <div class="col-3 h6 mt-3 mb-2" data-target="#sarah" data-toggle="collapse" style="cursor: pointer;">
+              Explore
+            </div>
+            <div class="col-9 text-right mt-3 mb-2" data-target="#sarah" data-toggle="collapse" style="cursor: pointer;">
+              <div class="h6">+</div>
+            </div>
+              <div class="col-12 mb-3 collapse" id="sarah">
+                <ul class="list-unstyled">
+                  <li class="mb-1">How It Works</li>
+                  <li class="mb-1">Find Your Place</li>
+                  <li class="mb-1">Refer A Friend</li>
+                  <li class="mb-1">Tenant Blog</li>
+                  <li class="mb-1">Contact</li>
+                </ul>
+              </div>
           </div>
         </div>
     </body>

@@ -1,10 +1,3 @@
-/*.jumbotron {
-
-	background-image: url('kapal_7.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-}*/
-
 @media only screen and (max-width: 891px) {
 
 	.percobaan2 {
@@ -26,8 +19,84 @@
 		width: 400px;
 	}
 
-	.percobaan3 {
+	.lebar-kolom-no {
 
-		left: 80px
+		width: 40px;
+	}
+
+	.lebar-kolom-nama {
+
+		width: 190px;
+	}
+
+	.lebar-kolom-tahun {
+
+		width: 150px;
+	}
+
+	.lebar-kolom-spesifikasi {
+
+		width: 190px;
+	}
+
+	.lebar-kolom-harga {
+
+		width: 130px;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+	.lebar-kolom-no {
+
+		width: 40px;
+	}
+
+	.lebar-kolom-nama {
+
+		width: 190px;
+	}
+
+	.lebar-kolom-tahun {
+
+		width: 150px;
+	}
+
+	.lebar-kolom-spesifikasi {
+
+		width: 190px;
+	}
+
+	.lebar-kolom-harga {
+
+		width: 130px;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+	.lebar-kolom-no {
+
+		width: 40px;
+	}
+
+	.lebar-kolom-nama {
+
+		width: 190px;
+	}
+
+	.lebar-kolom-tahun {
+
+		width: 150px;
+	}
+
+	.lebar-kolom-spesifikasi {
+
+		width: 190px;
+	}
+
+	.lebar-kolom-harga {
+
+		width: 130px;
 	}
 }
