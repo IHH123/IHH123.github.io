@@ -187,7 +187,7 @@
 	display: block;
 }				*/
 
-/*.box-model-satu {
+.box-model-satu {
 
 	display: none;
 }
@@ -254,7 +254,7 @@
 
 		display: none;
 	}		
-}*/
+}
 
 /*@media only screen and (min-width: 479px) and (max-width: 576px) {
 
