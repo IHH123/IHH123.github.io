@@ -1,15 +1,25 @@
-@media only screen and (max-width: 891px) {
-
-	.percobaan2 {
-
-		display: none;
-	}
-}
 
 .animasi:hover {
 
 	transition: all 1s ease-out 0s;
 	transform: scale(1.05,1.05);
+}
+
+.posisi-container-carousel {
+
+	top: 140px
+}
+
+.pembatas-atas {
+
+	height: 20px; 
+	top: 120px
+}
+
+.pembatas-bawah {
+
+	height: 20px; 
+	top: 160px
 }
 
 @media only screen and (max-width: 576px) {
@@ -43,6 +53,22 @@
 
 		width: 130px;
 	}
+
+	.pembatas-atas {
+
+		top: 135px;
+	}
+
+	.pembatas-bawah {
+
+		height: 20px; 
+		top: 175px
+	}
+
+	.posisi-container-carousel {
+
+		top: 155px
+	}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
@@ -71,7 +97,31 @@
 
 		width: 130px;
 	}
+
+	.pembatas-atas {
+
+		top: 135px;
+	}
+
+	.pembatas-bawah {
+
+		height: 20px; 
+		top: 175px
+	}
+
+	.posisi-container-carousel {
+
+		top: 155px
+	}	
 }
+
+/*@media only screen and (max-width: 891px) {
+
+	.percobaan2 {
+
+		display: none;
+	}
+}*/
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
 
@@ -99,4 +149,127 @@
 
 		width: 130px;
 	}
+
+	.pembatas-atas {
+
+		top: 135px;
+	}
+
+	.pembatas-bawah {
+
+		height: 20px; 
+		top: 175px
+	}
+ 	
+	.posisi-container-carousel {
+
+		top: 155px
+	}	
 }
+
+/*.box-model-satu {
+
+	display: none;
+}*/
+
+/*.box-model-satu {
+
+	display: block;
+}
+
+.box-model-dua {
+
+	display: block;
+}
+
+.box-model-tiga {
+
+	display: block;
+}				*/
+
+.box-model-satu {
+
+	display: none;
+}
+
+.box-model-dua {
+
+	display: block;
+}
+
+.box-model-tiga {
+
+	display: none;
+}					
+
+@media only screen and (min-width: 386px) and (max-width: 410px) {
+
+	.box-model-satu {
+
+		display: block;
+	}
+
+	.box-model-dua {
+
+		display: block;
+	}
+
+	.box-model-tiga {
+
+		display: none;
+	}					
+}
+
+@media only screen and (min-width: 425px) and (max-width: 471px) {
+
+	.box-model-satu {
+
+		display: none;
+	}
+
+	.box-model-dua {
+
+		display: block;
+	}
+
+	.box-model-tiga {
+
+		display: none;
+	}			
+}
+
+@media only screen and (min-width: 472px) and (max-width: 478px) {
+
+	.box-model-satu {
+
+		display: block;
+	}
+
+	.box-model-dua {
+
+		display: block;
+	}
+
+	.box-model-tiga {
+
+		display: none;
+	}		
+}
+
+/*@media only screen and (min-width: 479px) and (max-width: 576px) {
+
+	.box-model-satu {
+
+		display: none;
+	}
+
+	.box-model-dua {
+
+		display: none;
+	}
+
+	.box-model-tiga {
+
+		display: none;
+	}		
+}*/
